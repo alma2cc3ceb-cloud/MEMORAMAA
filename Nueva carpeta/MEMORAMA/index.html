@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorama de Animales (2 Jugadores)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Memorama de Animales</h1>
+        <div id="info-juego">
+            <div id="marcador-p1" class="marcador activo">Jugador 1: 0</div>
+            <div id="marcador-p2" class="marcador">Jugador 2: 0</div>
+        </div>
+        <div id="mensaje-turno">Turno: Jugador 1</div>
+        <div id="nivel-info">Nivel: 1/10 | Pares: <span id="total-pares"></span></div>
+    </header>
+
+    <div class="tablero-juego" id="tablero-juego">
+        </div>
+
+    <div id="fallo-x" class="fallo-x">❌</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
